@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Tajawal:wght@400;700&display=swap");
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	background: #d6e7ef;
+}
+/* التبويبات بالاعلى */
+.nav-container {
+ /* background: #4180ab;*/
+  color: #f0f4f8;
+    align-items: center;
+	
+}
+
+nav {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 1.1rem;
+  
+}
+
+nav .logo {
+  font-family: "Kufam", cursive;
+  font-weight: bold;
+  flex: 3;
+  color: #f0f4f8;
+
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex: 1;
+}
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding:10px 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+nav ul 	li a:hover{
+	color:#ea1538;
+	transition:.3s;
+}
+.nav-container img {
+	width:10%;
+	height:15%;
+}
+
+
+
+
+/* الخدمات */
+.about-container {
+ /* background: #d6e7ef;*/
+}
+.about-us {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us img {
+  width: 50%;
+  height: 90%;
+  margin-top:2rem;
+}
+
+.about-us .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2 {
+  text-align:center;
+  color: black;
+  font-size: 2rem;
+  margin:0;
+  margin-bottom:6rem;
+}
+
+.button{
+	width:260px;
+	height:70px;
+	text-align:center;
+	font-weight:bold;
+	line-height:70px;
+	border-radius:10px;
+	transition:0.5s;
+	display:inline-block;
+	position:relative;
+	color:#e2e1e1;
+	background:rgb(141,184,224);
+	text-decoration:none;
+	font-size:2rem;
+}
+.button:hover{
+	transition:0,5s;
+}
+.button:before{
+	content:'تسوق';
+	position:absolute;
+	top:0;
+	left:0;
+	right:40px;
+	bottom:0;
+	background:black;
+	border-radius:10px 0 0 10px;
+	transition:0.5s;
+}
+.button:hover:before{
+	right:220px;
+	transition:0.5s;
+	color:transparent;
+}
+
+
+.button1{
+	width:260px;
+	height:70px;
+	text-align:center;
+	font-weight:bold;
+	line-height:70px;
+	border-radius:10px;
+	transition:0.5s;
+	display:inline-block;
+	position:relative;
+	color:#e2e1e1;
+	background:rgb(141,184,224);
+	text-decoration:none;
+	font-size:2rem;
+}
+.button1:hover{
+	transition:0,5s;
+}
+.button1:before{
+	content:'صيانة';
+	position:absolute;
+	top:0;
+	left:0;
+	right:40px;
+	bottom:0;
+	background:black;
+	border-radius:10px 0 0 10px;
+	transition:0.5s;
+}
+.button1:hover:before{
+	right:220px;
+	transition:0.5s;
+	color:transparent;
+}
+
+
+
+
+/*من نحن*/
+
+.about-container3 {
+ /* background: #d6e7ef;*/
+}
+.about-us3 {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  
+  text-align:center;
+}
+
+.about-us3 .about-content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content3 h2 {
+  color: black;
+  font-size:4rem;
+  text-align:center;
+}
+
+.about-us3 img {
+  width: 40%;
+  height: 100%;
+  margin-top:1rem;
+}
+
+
+
+/* للتواصل معنا */
+
+.about-container4 {
+ /* background: #d6e7ef;*/
+}
+.about-us4{
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  text-align:center;
+}
+
+.about-us4 .about-content4 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-content4{
+flex-direction: column;
+}
+
+.about-content4 h6 {
+  color: black;
+  font-size:4rem;
+}
+.about-content4 p {
+  margin-top: 1rem;
+  margin-left:4rem;
+  width: 80%;
+  color: black;
+  font-size:1.7rem;
+}
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 1.4rem 2rem;
+  margin-top: 1rem;
+/* background:#4180ab;*/
+
+}
+
+.footer h1 {
+	font-size:2rem;
+  color: black;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+
+.footer .icons a {
+  color: black;
+  font-size: 1.8rem;
+  padding: 0 1rem;
+}
+.footer .vision-logo img {
+  width: 50%;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+	
+@media (max-width: 550px) {
+  .footer {
+    flex-flow: column;
+  }
+  .footer h1 {
+    text-align: center;
+  }
+  .footer .icons {
+    padding: 2rem 0;
+  }
+  .footer .vision-logo {
+    width: 80%;
+    margin-right: 50px;
+  }
+}	
+	
+	
+	
+	
